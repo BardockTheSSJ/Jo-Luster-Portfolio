@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: black;
+    font-family:'Courier New', Courier, monospace;
+}
+
+/*header styling*/
+header {
+    padding: 20px 35px;
+    background color: #000000;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 42px;
+    color: lightpink;
+    margin: 0;
+    display: inline;
+}
+
+header a {
+    text-decoration: none;
+    color: lightpink;
+}
+
+/* NAVIGATION */
+
+header nav {
+    float: right;
+    margin: 7px;
+}
+
+header nav ul li {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 18px;
+}
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+/*Jumbotron start*/
+.hero {
+    background-image: url(/images/pink\ background.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position:relative;
+}
+
+.cool-subtitle {
+    float: right;
+    font
+}
